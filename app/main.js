@@ -1,2 +1,3 @@
-require('./AppComponent.js');
-console.log('Loaded App Component');
+var React = require('react');
+var AppComponent = require('./AppComponent.js');
+React.render(<AppComponent/>, document.body);
