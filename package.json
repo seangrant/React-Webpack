@@ -1,0 +1,23 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Webpack with React started project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seangrant/React-Webpack.git"
+  },
+  "author": "Sean Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seangrant/React-Webpack/issues"
+  },
+  "homepage": "https://github.com/seangrant/React-Webpack#readme",
+  "dependencies": {
+    "webpack": "^1.10.5"
+  }
+}
